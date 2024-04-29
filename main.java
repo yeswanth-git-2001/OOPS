@@ -1,5 +1,5 @@
 class Main {
-    //Driving code i.e automatically main method will be called by JVM
+    //Driver code i.e automatically main method will be called by JVM
     public static void main(String[] args) {
 
         //The variables which defined inside method called as local variables and memory would be on stack area
@@ -18,7 +18,7 @@ class Main {
         student.name = "Yeswanth chowdary";
         //id, name are instance variables which can change the data from one object to another object
         System.out.println(student.hashCode()); //reference of the object will be printed
-    }//After this line the scope of the reference variable student will be gone, then we cant access instance variables of the class
+    }//After this line the scope of the reference variable student will be gone, then we can't access instance variables of the class
     //If the reference variables student was not referring to the object, the garbage collector will the object from the heap area.
 }
 
